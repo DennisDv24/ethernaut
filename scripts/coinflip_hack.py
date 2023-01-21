@@ -3,8 +3,6 @@ from brownie import chain
 from scripts.challenge_utils import (
     connect_to_challenge, get_acc
 )
-from web3 import Web3
-from time import sleep
 
 ETHERNAUT_INSTANCE = '0x664d2f559AC4eE33b0eF6c617023f73E53Caa642'
 FACTOR = 57896044618658097711785492504343953926634992332820282019728792003956564819968
